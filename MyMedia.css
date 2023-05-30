@@ -1,3 +1,46 @@
 @media (max-width:576px) {
-    
+    .navbar {
+        margin-bottom: 25px;
+    }
+
+    .andrew_box {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+    }
+
+    .amdrew_image {
+        padding: 5px 5px;
+        margin-left: 75px;
+    }
+
+    .strategy_box {
+        display: block;
+    }
+
+    .header_h1 {
+        font-size: 31px;
+        line-height: 30px;
+    }
+
+    .header_title {
+        width: 75%;
+    }
+
+    .header_p_2 {
+        margin-bottom: 20px;
+    }
+
+    .box_1_h1 {
+        padding-top: 10px;
+    }
+
+    .strategy_box_1 {
+        width: 100%;
+    }
+
+    .box_2_p {
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
 }
