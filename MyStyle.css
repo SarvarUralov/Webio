@@ -60,7 +60,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 106px;
+    margin-left: 107px;
     margin-top: -80px;
     background-color: #FFFFFF;
     z-index: 1;
@@ -205,7 +205,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .balenciaga_img {
@@ -238,60 +238,301 @@ header {
 .balenciaga_a {
     font-family: 'FontAwesome';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 18px;
     text-decoration-line: underline;
     color: #D4D6D4;
 }
 
-.angel_box {
+
+.history_box {
     width: 453px;
     height: 243px;
-    background: #FFFFFF;
-    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
-    border-radius: 8px;
-    margin-left: 315px;
-    margin-top: -150px;
+    background-color: #eeeeee;
+    margin-left: 310px;
+    margin-top: -90px;
+    position: relative;
 }
 
-.angel_img_title {
+.first_history_box {
+    padding: 16px 33px;
+}
+
+.first_history_box p {
+    color: #4D533C;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.second_history_box {
     display: flex;
     align-items: center;
     justify-content: start;
 }
 
-.angel_h1 {
-    width: 100%;
-    max-width: 170px;
-    font-family: 'Poppins';
+.s_h_image {
+    width: 100px;
+    height: 100px;
+}
+
+.s_h_title h1 {
+    color: #4D533C;
+    font-size: 16px;
+    font-family: Poppins;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #4D533C;
 }
 
-.angel_h1 span {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+.s_h_title h2 {
     color: #152934;
+    font-size: 14px;
+    font-family: Poppins;
 }
 
-.angel_img_title img {
-    width: 46px;
-    height: 46px;
+.deation {
+    border-top: 1px solid #000;
+    padding-top: 50px;
 }
 
-.angel_p {
-    padding: 10px 33px;
+.deation h1 {
     width: 100%;
-    max-width: 390px;
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    max-width: 607px;
     color: #4D533C;
-    margin-bottom: 24px;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 60px;
+}
+
+.product_box_detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.first_p_box {
+    width: 255px;
+    height: 309px;
+}
+
+.p_box_h1 {
+    padding: 15px 30px;
+}
+
+.p_box_h1 h1 {
+    color: #4D533C;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 34px;
+    text-transform: uppercase;
+    /* margin-bottom: 20px; */
+}
+
+.p_box_p {
+    padding: 5px 30px;
+}
+
+.p_box_p p {
+    color: rgba(33, 56, 66, 0.60);
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 26px;
+}
+
+.p_box_a {
+    padding: 0 30px;
+    color: #FFD723;
+    font-size: 18px;
+    font-family: FontAwesome;
+    text-decoration-line: underline;
+}
+
+.Best_way {
+    width: 1275px;
+    height: 362px;
+    background: #FAFAFA;
+    margin-left: -88px;
+    margin-bottom: -175px;
+    position: relative;
+}
+
+.best_way_h1 {
+    padding: 20px 156px;
+}
+
+.best_way_h1 h1 {
+    color: #4D533C;
+    font-size: 60px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    margin-bottom: 50px;
+}
+
+.best_way_a {
+    padding: 5px 164px;
+}
+
+.best_way_a a {
+    color: #D4D6D4;
+    font-size: 16px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+footer {
+    background: #4F553D;
+}
+
+.phone {
+    margin-right: 128px;
+}
+
+.phone h1 {
+    color: #B6C197;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.phone p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.address h1 {
+    color: #B6C197;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.address p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer_box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 52px 164px;
+    padding-top: 310px;
+    border-bottom: 1px solid #5D6544;;
+}
+
+.boxes_1 {
+    padding: 60px 100px;
+    /* margin-left: 78px; */
+}
+
+.boxes_1 h1 {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.boxes_1_ul a {
+    color: #B6C197;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+.footer_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #5D6544;;
+}
+
+.logo_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+
+.title_box {
+    color: #B5C096;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.need {
+    padding: 50px 80px !important;
+    border-left: 1px solid #5D6544; ;
+}
+
+.need_2 li {
+    width: 100%;
+    max-width: 270px !important;
+}
+
+.email_box {
+    color: #FFF !important;
+    font-family: Poppins !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 38px !important;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands {
+    font-size: 40px;
+    color: #444A34;
+    margin-left: 25px;
+}
+
+.need_3 {
+    width: 33px;
+    height: 33px;
+    color: #FFD723 !important;
 }
